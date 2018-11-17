@@ -33,7 +33,7 @@ A normal version number MUST take the form V.W.X.Y.Z where V, W, X, Y, and Z are
 
 Once a versioned package has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version. Do not release FAKE NPMS!
 
-Yuge version zero (0.y.z) is for initial development. Anything may change at any time. The public API should not be considered stable.
+Yuge version zero (0.w.x.y.z) is for initial development. Anything may change at any time. The public API should not be considered stable.
 
 Version 1.0.0.0.0 defines the public API. The way in which the version number is incremented after this release is dependent on this public API and how it changes.
 
