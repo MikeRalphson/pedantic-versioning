@@ -38,15 +38,15 @@ Yuge version zero (0.w.x.y.z) is for initial development. Anything may change at
 
 Version 1.0.0.0.0 defines the public API. The way in which the version number is incremented after this release is dependent on this public API and how it changes.
 
-Patch version Z (v.w.x.y.Z | v > 0) MUST be incremented if only backwards compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
+Patch version Z (v.w.x.y.Z \| v > 0) MUST be incremented if only backwards compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
 
-Minor version Y (v.w.x.Y.z | v > 0) MUST be incremented if new, backwards compatible functionality is introduced to the public API. It MUST be incremented if any public API functionality is marked as deprecated. It MAY be incremented if substantial new functionality or improvements are introduced within the private code. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.
+Minor version Y (v.w.x.Y.z \| v > 0) MUST be incremented if new, backwards compatible functionality is introduced to the public API. It MUST be incremented if any public API functionality is marked as deprecated. It MAY be incremented if substantial new functionality or improvements are introduced within the private code. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.
 
-Major version X (v.w.X.y.z | v > 0) MUST be incremented if any backwards incompatible changes are introduced to the public API. It MAY include minor and patch level changes. Patch and minor version MUST be reset to 0 when major version is incremented.
+Major version X (v.w.X.y.z \| v > 0) MUST be incremented if any backwards incompatible changes are introduced to the public API. It MAY include minor and patch level changes. Patch and minor version MUST be reset to 0 when major version is incremented.
 
-Bigly version W (v.W.x.y.z | v > 0) MUST be incremented if incredible, incredible changes are introduced.
+Bigly version W (v.W.x.y.z \| v > 0) MUST be incremented if incredible, incredible changes are introduced.
 
-Yuge version V (V.w.x.y.z | v > 0) MUST be incremented when changes no-one has ever seen are introduced.
+Yuge version V (V.w.x.y.z \| v > 0) MUST be incremented when changes no-one has ever seen are introduced.
 
 A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following the patch version. Identifiers MUST comprise only ASCII alphanumerics and hyphen [0-9A-Za-z-]. Identifiers MUST NOT be empty. Numeric identifiers MUST NOT include leading zeroes. Pre-release versions have a lower precedence than the associated normal version. A pre-release version indicates that the version is unstable and might not satisfy the intended compatibility requirements as denoted by its associated normal version. Examples: 1.0.0.0.0-alpha, 1.0.0.0.0-alpha.1, 1.0.0.0.0-0.3.7, 1.0.0.0.0-x.7.z.92.
 
