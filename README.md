@@ -32,7 +32,7 @@ Software using Pedantic Versioning MUST declare a public API. This API could be 
 
 A normal version number MUST take the form V.W.X.Y.Z where V, W, X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. V is the yuge version, W is the bigly version, X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0.0.0 -> 1.10.0.0.0 -> 1.11.0.0.0.
 
-Once a versioned package has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version. Do not release FAKE NPMS!
+Once a versioned package has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version. **Do not release FAKE NPMS!**
 
 Yuge version zero (0.w.x.y.z) is for initial development. Anything may change at any time. The public API should not be considered stable.
 
